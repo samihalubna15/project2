@@ -1,0 +1,134 @@
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color:black;
+    font-size:50px;
+}
+h2{
+    font-size:40px;
+    color:orangered;
+}
+h3{
+    font-size:40px;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+h5{
+    
+color:white;
+text-size-adjust: 4px;
+}
+p{
+    text-align: center;
+    
+    color:dimgray;
+}
+.orange-highlight{
+    color:orangered;
+}
+.half-width{
+    width:30%;
+    float: left;
+    margin-left:5%;
+    padding-left:2%;
+}
+
+.btn {
+    background-color: chocolate;
+    background-image: linear-gradient( 45deg ,lightSalmon,tomato);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+.top-banner{
+   
+    background-image: url("images/top-banner.png");
+
+
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient( 45deg ,lightSalmon,tomato);
+    background-color: chocolate;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:white;
+    font-weight: 700;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 29%;
+   
+    padding: 0 10px;
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px rgb(128, 128, 128);
+    border-radius: 5px;
+    height:80%;
+  }
+  
+  
+  .row {margin: 0 -5px;}
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+
+  .center {
+    background-image: url("images/pic6.png");
+      text-align: none;
+      box-shadow: 10px 10px 40px rgb(128, 128, 128);
+   
+    margin:auto;
+    height:30%;
+    width: 50%;
+    border: 1px solid;
+    padding: 50px;
+  }
